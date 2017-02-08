@@ -40,7 +40,7 @@ Usage examples from command line / Caché Object Script:
 ```
 
 ```
-	Set report = \#\#class(ZEN.Report.FOWrapper).\%New()
+	Set report = ##class(ZEN.Report.FOWrapper).%New()
 	Set report.CallbackClass = "ZEN.Report.FOWrapper"
 	Set report.CallbackMethod = "FO2PDFCallback"
 	Do report.GenerateReport("c:\fop\out\simple.pdf", 2, 0, 59991)
